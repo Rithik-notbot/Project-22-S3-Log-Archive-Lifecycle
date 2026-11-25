@@ -31,4 +31,11 @@ Create an Amazon S3 bucket for storing log files and configure a lifecycle rule 
 - Screenshot of the S3 lifecycle rule after deployment.
 
 ## Status
-Terraform configuration prepared. AWS deployment pending approval.
+
+- Terraform S3 log archive configuration prepared.
+- Explicit S3 public access blocking configured.
+- 90-day lifecycle expiration rule configured for the logs/ prefix.
+- Terraform formatting completed.
+- Terraform validation successful.
+- AWS deployment and lifecycle testing pending account access and approval.
+- Live S3 lifecycle screenshot pending approved deployment.
